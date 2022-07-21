@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+header h1{
+    font-family: 'Yeseva One';
+}
+
+.title{
+    text-decoration: none;
+    color: black;
+}
+
+.title:hover{
+    color: black;
+}
+
+header{
+    background-color: #D9BBB0;
+}
+
+.header-links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-links a, .nav a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.header-links li, main ul{
+    list-style-type: none;
+}
+
+.nav{
+    background-color: #FF5F5D;
+}
+
+.nav-item{
+    text-transform: uppercase;
+}
+
+.link-footer{
+    color: #FF5F5D;
+    text-decoration: none;
+}
+
+.link-footer:hover{
+    color: #FF5F5D;
+    text-decoration: underline;
+}
+
+main section h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
